@@ -91,5 +91,6 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCm
 	pFrame->ShowModal();
 	delete pFrame;
 	::CoUninitialize();
+	CButtonUI justtest;
 	return 0;
 }
